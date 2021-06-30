@@ -1,0 +1,477 @@
+
+/* Desktop view */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body {
+ 	position: fixed; 
+ 	margin: 0;
+    overflow: hidden;
+ }
+ 
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1366px;
+	 height: 676px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #beale 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1366px;
+	 height: 678px;
+	 z-index:1;
+} 
+
+ #Screen 
+{ 
+	 left: -156px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1522px;
+	 height: 678px;
+	 z-index:2;
+} 
+
+ #AboutUs 
+{ 
+	 left: 669px; 
+	 top: 275px; 
+	 position: absolute; 
+	 width: 231px;
+	 height: 35px;
+	 z-index:3;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 44px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+}
+
+ #WHO 
+{ 
+	 left: 297px; 
+	 top: 323px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 22px;
+	 z-index:5;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+} 
+
+ #WHAT 
+{ 
+	 left: 297px; 
+	 top: 325px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 21px;
+	 z-index:6;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+
+ #BigRiverVillage 
+{ 
+	 left: 672px; 
+	 top: 207px; 
+	 position: absolute; 
+	 width: 417px;
+	 height: 44px;
+	 z-index:4;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 44px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+ #WhoWhatHowHowmuch 
+{ 
+	 left: 661px; 
+	 top: 207px; 
+	 position: absolute; 
+	 width: 331px;
+	 height: 230px;
+	 z-index:3;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 44px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+ #DonatenowGivemonthly 
+{ 
+	 left: 669px; 
+	 top: 209px; 
+	 position: absolute; 
+	 width: 333px;
+	 height: 164px;
+	 z-index:3;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 44px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+
+} 
+
+ #HOWMUCH 
+{ 
+	 left: 299px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 215px;
+	 height: 22px;
+	 z-index:4;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+ #TourtheVillageVolunt 
+{ 
+	 left: 669px; 
+	 top: 207px; 
+	 position: absolute; 
+	 width: 436px;
+	 height: 230px;
+	 z-index:3;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 44px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+
+	 
+} 
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+ #HOW 
+{ 
+	 left: 299px; 
+	 top: 322px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 22px;
+	 z-index:4;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+}
+
+ #DIGNITYBWcross 
+{ 
+	 left: 1159px; 
+	 top: 84px; 
+	 position: absolute; 
+	 width: 136px;
+	 height: 86px;
+	 z-index:6;
+} 
+
+ #BoxSleeer 
+{ 
+	 left: 238px; 
+	 top: 495px; 
+	 position: absolute; 
+	 width: 261px;
+	 height: 99px;
+	 z-index:3;
+} 
+
+ #Sleeper 
+{ 
+	 left: 82px; 
+	 top: 531px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 94px;
+	 z-index:4;
+} 
+
+ #DIGNITYfmbuscard 
+{ 
+	 left: 87px; 
+	 top: -217px; 
+	 position: absolute; 
+	 width: 1052px;
+	 height: 983px;
+	 z-index:5;
+} 
+
+ #CULTIVATECARINGCOMMU 
+{ 
+	 left: 368px; 
+	 top: 274px; 
+	 position: absolute; 
+	 width: 728px;
+	 height: 28px;
+	 z-index:6;
+
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 37px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+ #MENU_1 
+{ 
+	 left: 126px; 
+	 top: 62px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 21px;
+	 z-index:7;
+	
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#ff7700;
+}
+
+ #Providingresourcesto 
+{ 
+	 left: 679px; 
+	 top: 440px; 
+	 position: absolute; 
+	 width: 417px;
+	 height: 129px;
+	 z-index:8;
+
+	 font-family: Courier New;
+	 font-size: 23px; 
+	 font-weight: 1000;
+	 line-height: 0px;
+	 color:#000 !important;
+} 
+
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 2.4;
+  color:rgb(000, 0, 0,1);
+}
+
+p.big2 {
+  line-height: 1.5;
+  color:rgb(000, 0, 0,1);
+}
+
+ #layer_4 
+{ 
+	 left: 610px; 
+	 top: 476px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 33px;
+	 z-index:6;
+
+	 font-family: "Courier New";
+	 font-size: 32px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 text-decoration: underline;
+	 color:#08bbd1;
+} 
+
+ #layer_3 
+{ 
+	 left: 610px; 
+	 top: 411px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 33px;
+	 z-index:7;
+
+	 font-family: "Courier New";
+	 font-size: 32px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 text-decoration: underline;
+	 color:#08bbd1;
+} 
+
+ #layer_2 
+{ 
+	 left: 610px; 
+	 top: 346px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 33px;
+	 z-index:8;
+
+	 font-family: "Courier New";
+	 font-size: 32px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 text-decoration: underline;
+	 color:#08bbd1;
+
+} 
+
+ #layer_1 
+{ 
+	 left: 610px; 
+	 top: 280px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 33px;
+	 z-index:9;
+
+	 font-family: "Courier New";
+	 font-size: 32px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 text-decoration: underline;
+	 color:#08bbd1;
+
+} 
+
+ #CLOSEBACK 
+{ 
+	 left: 125px; 
+	 top: 63px; 
+	 position: absolute; 
+	 width: 255px;
+	 height: 22px;
+	 z-index:10;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+ #BEBACK
+{ 
+	 left: 270px; 
+	 top: 63px; 
+	 position: absolute; 
+	 width: 255px;
+	 height: 22px;
+	 z-index:10;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#ff7700;
+} 
+
+
+ #MENU 
+{ 
+	 left: 295px; 
+	 top: 318px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 21px;
+	 z-index:8;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
+
+ #facebook 
+{ 
+	 left: 705px; 
+	 top: 539px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 24px;
+	 z-index:9;
+} 
+
+ #twitter 
+{ 
+	 left: 751px; 
+	 top: 539px; 
+	 position: absolute; 
+	 width: 29px;
+	 height: 24px;
+	 z-index:10;
+} 
+
+ #insta 
+{ 
+	 left: 661px; 
+	 top: 539px; 
+	 position: absolute; 
+	 width: 23px;
+	 height: 24px;
+	 z-index:11;
+} 
+
+
+ #WHAT 
+{ 
+	 left: 297px; 
+	 top: 325px; 
+	 position: absolute; 
+	 width: 119px;
+	 height: 21px;
+	 z-index:6;
+
+	 font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	 font-size: 28px;  
+	 font-weight: 900;
+	 line-height: 18px;
+	 color:#000;
+} 
